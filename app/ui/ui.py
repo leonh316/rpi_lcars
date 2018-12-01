@@ -13,7 +13,7 @@ class UserInterface:
         self.screenSurface = pygame.display.set_mode(resolution) #, pygame.FULLSCREEN)
         self.fpsClock = pygame.time.Clock()
         self.fps = fps
-        pygame.display.set_caption("LCARS")
+        pygame.display.set_caption("Product Inventory System")
         if not dev_mode: 
             # see https://github.com/tobykurien/rpi_lcars/issues/9
             #pygame.mouse.set_visible(False)

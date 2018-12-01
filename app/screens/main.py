@@ -20,7 +20,7 @@ class ScreenMain(LcarsScreen):
         # panel text
       #  all_sprites.add(LcarsText(colours.ORANGE, (15, 44), "LCARS 105"),
       #                  layer=1)
-        all_sprites.add(LcarsText(colours.GREY, (5, 14), "Blank User Interface", 2),
+        all_sprites.add(LcarsText(colours.GREY, (5, 14), "Home", 2),
                         layer=1)
        # all_sprites.add(LcarsBlockMedium(colours.RED_BROWN, (145, 16), "LIGHTS"),
        #                 layer=1)
@@ -38,7 +38,7 @@ class ScreenMain(LcarsScreen):
         #all_sprites.add(self.ip_address, layer=1)
 
         # info text
-        all_sprites.add(LcarsText(colours.GREY, (41, 22), "Product Inventory System:", 1.5),
+        all_sprites.add(LcarsText(colours.GREY, (41, 14), "Product Inventory System:", 1.5),
                         layer=3)
         #all_sprites.add(LcarsText(colours.GREY, (244, 174), "2 ALARM ZONES TRIGGERED", 1.5),
         #                layer=3)
