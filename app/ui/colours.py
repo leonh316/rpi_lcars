@@ -1,6 +1,7 @@
 # LCARS colour scheme
 BLACK = 0, 0, 0
 WHITE = 255, 255, 255
+GREY = 192, 192, 192
 
 ORANGE = 255, 153, 0
 PURPLE = 204, 153, 204
